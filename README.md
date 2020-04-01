@@ -1,6 +1,13 @@
 # simulant
 
-FIXME: description
+Library for developing simulation-based tests
+
+## Inspiration - simulation testing approach
+
+* [Simulation Testing" by Michael Nygard](https://youtu.be/N5HyVUPuU0E)
+* [Ryan Neufeld - Simulant in Anger](https://youtu.be/RHf8ngqVKys)
+* [Simulation Testing with Simulant by Stuart Halloway](https://www.infoq.com/presentations/Simulation-Testing) 
+* [Intro to Datomic by Rich Hickey](https://youtu.be/RKcqYZZ9RDY)
 
 ## Developing
 
@@ -34,11 +41,8 @@ Run `go` to prep and initiate the system.
 
 ```clojure
 dev=> (go)
-:duct.server.http.jetty/starting-server {:port 3000}
 :initiated
 ```
-
-By default this creates a web server at <http://localhost:3000>.
 
 When you make changes to your source files, use `reset` to reload any
 modified files and reset the server.
